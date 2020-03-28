@@ -26,4 +26,4 @@ for i,movie in enumerate(movies):
 
 df = pd.DataFrame(list(zip(data[1],data[2])), index=data[0], columns = ['Title', 'Bechdel Pass'])
 
-df.to_csv('bechdel.csv',sep='|',header=True, index_label='ID')
+df.to_csv('bechdel.csv',header=True, index_label='ID')
