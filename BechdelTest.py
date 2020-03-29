@@ -15,7 +15,7 @@ movies = soup.find_all(class_='movie')
 for i,movie in enumerate(movies):
     m = str(movie)
     score = score_pattern.findall(m)
-    id = id_pattern.findall(m)[0].replace('tt','')
+    id = id_pattern.findall(m)[0]
     title = movie.get_text().replace('\n', '').strip()
     data[0].append(id)
     data[1].append(title)
