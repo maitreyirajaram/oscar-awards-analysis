@@ -36,7 +36,7 @@ def get_cast(movie_id):
     all_casts.append(cast_for_movie)
 
 def main():
-    movies = get_movie_ids("BestPictureAcademyAward.csv")
+    movies = get_movie_ids("data/BestPictureAcademyAward.csv")
 
     for Const in movies.itertuples(): #for each movie title
         movie_id = (Const[1])
