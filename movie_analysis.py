@@ -17,7 +17,7 @@ def get_movie_ids(filename):
     df = pd.read_csv(filename, usecols = ["Const"])
     return df
 
-def get_budget(movie_id):  ##finish this
+def get_budget(movie_id):
     call ='https://api.themoviedb.org/3/movie/' + str(movie_id) + '?api_key=' + config.MY_KEY + '&language=en-US'
     r = requests.get(call)
     budget = r.json().get('budget')
@@ -30,9 +30,11 @@ def get_cast(movie_id):
     # iterate through cast
     cast_for_movie = []
     for item in cast:
-        cast_for_movie.append((item.get('name'), item.get('cast_id')))  # adding cast[(actor_name, rank_of_appearance)]
-        all_actors.append(item.get('name'))
-        all_actor_genders.append(item.get('gender'))#add actor name and gender to list
+        actor_name = item.get('name')
+        cast_for_movie.append((actor_name, item.get('cast_id')))  # adding cast[(actor_name, rank_of_appearance)]
+        if actor_name not in all_actors:
+            all_actors.append(actor_name)
+            all_actor_genders.append(item.get('gender'))#add actor name and gender to list
     all_casts.append(cast_for_movie)
 
 def main():
