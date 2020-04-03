@@ -23,6 +23,6 @@ for i,movie in enumerate(movies):
     else:
         data[2].append(True) # movie passes test
 
-df = pd.DataFrame(list(zip(data[1],data[2])), index=data[0], columns = ['Title', 'Bechdel Pass'])
+df = pd.DataFrame(list(zip(data[1],data[2])), index=data[0], columns = ['Film', 'Bechdel Pass'])
 
 df.to_csv('data/bechdel.csv',header=True, index_label='ID')

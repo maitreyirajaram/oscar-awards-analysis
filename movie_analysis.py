@@ -8,6 +8,7 @@ import requests
 ##globals
 all_casts = [] #list of list of tuples (actor name, cast no) for each film
 all_budgets = []
+all_titles = []
 all_keywords = [] # list of list of keywords for each film
 all_actors = [] #list of names
 # FULL CAST/GENDERS FOR EACH: 2 - guy, 1 - girl, ignore 0s (unfortunately makes for small margin of error)
@@ -17,11 +18,13 @@ def get_movie_ids(filename):
     df = pd.read_csv(filename, usecols = ["Const"])
     return df
 
-def get_budget(movie_id):
+def get_details(movie_id):
     call ='https://api.themoviedb.org/3/movie/' + str(movie_id) + '?api_key=' + config.MY_KEY + '&language=en-US'
     r = requests.get(call)
     budget = r.json().get('budget')
+    title = r.json().get('original_title')
     all_budgets.append(budget)
+    all_titles.append(title)
 
 def get_cast(movie_id):
     call = 'https://api.themoviedb.org/3/movie/' + str(movie_id) + '/credits?api_key=' + config.MY_KEY
@@ -53,8 +56,9 @@ def main():
     for Const in movies.itertuples(): #for each movie title
         movie_id = (Const[1])
         get_cast(movie_id)
-        get_budget(movie_id)
+        get_details(movie_id)
         get_keywords(movie_id)
+    movies['Title'] = all_titles
     movies['Cast'] = all_casts
     movies['Budget'] = all_budgets
     movies['Keywords'] = all_keywords
@@ -64,6 +68,8 @@ def main():
     #print final dataframes
     print(movies.head())
     print(actors.head())
+
+    movies.to_csv('data/FilmData.csv', header=True)
 
 
 if __name__ == '__main__':
