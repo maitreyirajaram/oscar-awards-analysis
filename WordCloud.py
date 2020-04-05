@@ -22,7 +22,7 @@ for row in bechdel_pass['Keywords']:
 pass_text = " ".join(pass_keywords)
 
 # generate a word cloud of keywords of all films that pass the Bechdel Test
-pass_keyword_cloud = WordCloud(stopwords=stopwords, max_font_size=50, max_words=200, background_color="white", colormap='magma').generate(pass_text)
+pass_keyword_cloud = WordCloud(stopwords=stopwords, max_font_size=40, relative_scaling=1, max_words=400, background_color="white", colormap='magma').generate(pass_text)
 plt.imshow(pass_keyword_cloud, interpolation='bilinear')
 plt.axis("off")
 plt.figure()
@@ -36,7 +36,7 @@ for row in bechdel_fail['Keywords']:
 fail_text = " ".join(fail_keywords)
 
 # generate a word cloud of keywords of all films that fail the Bechdel Test
-fail_keyword_cloud = WordCloud(stopwords=stopwords, max_font_size=50, max_words=200, background_color="white").generate(fail_text)
+fail_keyword_cloud = WordCloud(stopwords=stopwords, max_font_size=30, max_words=400, background_color="white", relative_scaling=1).generate(fail_text)
 plt.imshow(fail_keyword_cloud, interpolation='bilinear')
 plt.axis("off")
 plt.figure()
