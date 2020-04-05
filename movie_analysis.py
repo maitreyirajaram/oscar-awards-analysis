@@ -71,6 +71,5 @@ def main():
 
     movies.to_csv('data/FilmData.csv', header=True)
 
-
 if __name__ == '__main__':
     main()
