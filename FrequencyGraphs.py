@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
-#import numpy as np
+import altair as alt
+import altair_viewer as av
 import pandas as pd
 
 df = pd.read_csv('data/FilmData2.csv')
@@ -24,3 +25,18 @@ for row in bechdel_fail['Genres']:
 pd.Series(fail_genres).value_counts().plot(kind='bar',colormap = 'viridis', title = 'Genres of Films that Fail the Bechdel Test')
 plt.figure()
 plt.show()
+
+# how to make altair grouped bar chart???
+# group pass v fail foro each genre
+
+df2 = pd.DataFrame(columns = ['Genre', 'Test'])
+for i in range(len(pass_genres)):
+    df2.loc[i] = [pass_genres[i], 'Pass']
+for i in range(len(fail_genres)):
+    df2.loc[i] = [fail_genres[i], 'Fail']
+
+chart = alt.Chart(df2).mark_bar().encode(
+    x='Test:Q',
+    y='count(Genre):Q'
+)
+chart.show()
