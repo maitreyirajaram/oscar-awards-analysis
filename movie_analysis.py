@@ -2,7 +2,7 @@ import pandas as pd
 import config
 import requests
 
-#TODO- actor race
+#TODO- actor race, add ratings from combination of different sources, topics of the winning movies (how to determine if they were topical when released)
 
 
 ##globals
@@ -16,6 +16,9 @@ all_actor_genders = [] #list of genders (added in order)
 def get_movie_ids(filename):
     df = pd.read_csv(filename, usecols = ["Const"])
     return df
+
+def get_bechdel(): ##finish
+
 
 def get_budget(movie_id):
     call ='https://api.themoviedb.org/3/movie/' + str(movie_id) + '?api_key=' + config.MY_KEY + '&language=en-US'
