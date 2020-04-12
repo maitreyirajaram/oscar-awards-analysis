@@ -55,12 +55,19 @@ class MovieAnalyzer(object):
             movie_keywords.append(word) # add all keywords for this film
         self.all_keywords.append(movie_keywords)
 
-    def get_award(self, award_string, year):
+    # def get_award(self, award_string, year):
+    #     if isinstance(award_string, str):
+    #         return str(year + 1) + ' Best Picture Winner'
+    #     else:
+    #         string = str(year + 1) + ' Best Picture Nominee'
+    #         return string
+
+    def is_award(self, award_string):
         if isinstance(award_string, str):
-            return str(year + 1) + ' Best Picture Winner'
-        else:
-            string = str(year + 1) + ' Best Picture Nominee'
-            return string
+            return 1
+
+        return 0
+
 
     def make_dataframes(self):
         movies = self.get_movie_ids("data/BestPictureAcademyAward.csv")
@@ -84,7 +91,9 @@ class MovieAnalyzer(object):
         award_info = award_info.drop(columns=['Position', 'Title', 'Created', 'Modified', 'URL', 'Title Type'])
         award_info = award_info.rename(columns={"Const": 'ID'})
         award_info = award_info.set_index('ID')
-        award_info['Award'] = award_info.apply(lambda row: self.get_award(row['Description'], row['Year']), axis=1)
+        #award_info['Award'] = award_info.apply(lambda row: self.get_award(row['Description'], row['Year']), axis=1)
+        award_info['Award_Year'] = award_info.apply(lambda row: row['Year'] +1, axis=1)
+        award_info['Winner'] = award_info.apply(lambda  row: self.is_award(row['Description']), axis=1)
         award_info = award_info.drop(columns=['Description'])
 
         df = pd.merge(movies, bechdel, how='left', left_on=['Const'], right_on=['ID'])
