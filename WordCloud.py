@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+import pandas as pd
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 stopwords = set(STOPWORDS)
