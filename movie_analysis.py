@@ -1,7 +1,7 @@
 import pandas as pd
 import config
 import requests
-from WordCloud import *
+
 
 #TODO- actor race, add ratings from combination of different sources, topics of the winning movies (how to determine if they were topical when released)
 
