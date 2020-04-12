@@ -1,6 +1,7 @@
 import pandas as pd
 import config
 import requests
+from WordCloud import *
 
 #TODO- actor race, add ratings from combination of different sources, topics of the winning movies (how to determine if they were topical when released)
 
@@ -62,6 +63,7 @@ class MovieAnalyzer(object):
     #         string = str(year + 1) + ' Best Picture Nominee'
     #         return string
 
+    # returns 1 if film was winner of the year and  if it was nominee
     def is_award(self, award_string):
         if isinstance(award_string, str):
             return 1
@@ -113,6 +115,7 @@ def main():
     #print final dataframes
     print(movies)
     print(actors)
+
 
 
 if __name__ == '__main__':

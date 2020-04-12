@@ -13,7 +13,8 @@ def split_bechdel(df):
     return bechdel_pass, bechdel_fail
 
 # creates wordclouds of the keywords of films that pass the bechdel test and of films that don't
-def bechdel_keywords_cloud(bechdel_pass, bechdel_fail):
+def bechdel_keywords_cloud(df):
+    bechdel_pass, bechdel_fail = split_bechdel(df)
     pass_keywords = []
     for row in bechdel_pass['Keywords']:
         row = row[1:len(row)-1].replace("'","")
