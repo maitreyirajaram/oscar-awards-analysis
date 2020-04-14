@@ -38,5 +38,5 @@ final_df = pd.merge(df, id_df, how='outer', left_on='nominee', right_on='title' 
 final_df = final_df.set_index('id')
 final_df = final_df.drop(columns=['nominee', 'ceremony'])
 
-final_df.to_csv('data/GoldenGlobesData.csv',header=True, index_label='id')
+final_df.to_csv('data/GoldenGlobesData.csv',header=True, index_label='Const')
 
