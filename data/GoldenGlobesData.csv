@@ -1,0 +1,364 @@
+﻿year_film,year_award,ceremony,category,nominee,film,win
+1943,1944,1,Picture,The Song Of Bernadette,,TRUE
+1944,1945,2,Picture,Going My Way,,TRUE
+1945,1946,3,Picture,The Lost Weekend,,TRUE
+1946,1947,4,Picture,The Best Years Of Our Lives,,TRUE
+1947,1948,5,Picture,Gentleman's Agreement,,TRUE
+1948,1949,6,Picture,Johnny Belinda,,TRUE
+1948,1949,6,Picture,The Treasure of the Sierra Madre,,TRUE
+1949,1950,7,Picture,All The King's Men,,TRUE
+1949,1950,7,Picture,Come To The Stable,,FALSE
+1950,1951,8,Picture,Sunset Boulevard,,TRUE
+1950,1951,8,Picture,Born Yesterday,,FALSE
+1950,1951,8,Picture,Cyrano de Bergerac (1950),,FALSE
+1951,1952,9,Best Motion Picture - Drama,A Place In The Sun,,TRUE
+1951,1952,9,Best Motion Picture - Drama,Quo Vadis?,,FALSE
+1951,1952,9,Best Motion Picture - Drama,A Streetcar Named Desire (1951),,FALSE
+1951,1952,9,Best Motion Picture - Drama,Bright Victory,,FALSE
+1951,1952,9,Best Motion Picture - Drama,Detective Story,,FALSE
+1952,1953,10,Best Motion Picture - Drama,The Greatest Show On Earth,,TRUE
+1952,1953,10,Best Motion Picture - Drama,"Come Back, Little Sheba",,FALSE
+1952,1953,10,Best Motion Picture - Drama,The Happy Time,,FALSE
+1952,1953,10,Best Motion Picture - Drama,High Noon,,FALSE
+1952,1953,10,Best Motion Picture - Drama,The Thief,,FALSE
+1953,1954,11,Best Motion Picture - Drama,"Robe, The",,TRUE
+1954,1955,12,Best Motion Picture - Drama,On the Waterfront,,TRUE
+1955,1956,13,Best Motion Picture - Drama,East of Eden,,TRUE
+1956,1957,14,Best Motion Picture - Drama,Around the World in 80 Days,,TRUE
+1956,1957,14,Best Motion Picture - Drama,Lust For Life,,FALSE
+1956,1957,14,Best Motion Picture - Drama,"Rainmaker, The",,FALSE
+1956,1957,14,Best Motion Picture - Drama,War and Peace,,FALSE
+1956,1957,14,Best Motion Picture - Drama,Giant,,FALSE
+1957,1958,15,Best Motion Picture - Drama,"Bridge on the River Kwai, The",,TRUE
+1957,1958,15,Best Motion Picture - Drama,12 Angry Men (1957),,FALSE
+1957,1958,15,Best Motion Picture - Drama,Wild is the Wind,,FALSE
+1957,1958,15,Best Motion Picture - Drama,Witness for the Prosecution,,FALSE
+1957,1958,15,Best Motion Picture - Drama,Sayonara,,FALSE
+1958,1959,16,Best Motion Picture - Drama,"Defiant Ones, The",,TRUE
+1958,1959,16,Best Motion Picture - Drama,Home Before Dark,,FALSE
+1958,1959,16,Best Motion Picture - Drama,I Want To Live!,,FALSE
+1958,1959,16,Best Motion Picture - Drama,Separate Tables,,FALSE
+1958,1959,16,Best Motion Picture - Drama,Cat on a Hot Tin Roof,,FALSE
+1959,1960,17,Best Motion Picture - Drama,Ben-Hur,,TRUE
+1959,1960,17,Best Motion Picture - Drama,Anatomy of a Murder,,FALSE
+1959,1960,17,Best Motion Picture - Drama,"Diary of Anne Frank, The",,FALSE
+1959,1960,17,Best Motion Picture - Drama,"Nun's Story, The",,FALSE
+1959,1960,17,Best Motion Picture - Drama,On The Beach,,FALSE
+1960,1961,18,Best Motion Picture - Drama,Spartacus,,TRUE
+1960,1961,18,Best Motion Picture - Drama,Elmer Gantry,,FALSE
+1960,1961,18,Best Motion Picture - Drama,Inherit the Wind - 1960,,FALSE
+1960,1961,18,Best Motion Picture - Drama,Sons and Lovers,,FALSE
+1960,1961,18,Best Motion Picture - Drama,Sunrise at Campobello,,FALSE
+1961,1962,19,Best Motion Picture - Drama,The Guns Of Navarone,,TRUE
+1961,1962,19,Best Motion Picture - Drama,El Cid,,FALSE
+1961,1962,19,Best Motion Picture - Drama,Fanny,,FALSE
+1961,1962,19,Best Motion Picture - Drama,Judgment at Nuremberg,,FALSE
+1961,1962,19,Best Motion Picture - Drama,Splendor in the Grass,,FALSE
+1962,1963,20,Best Motion Picture - Drama,Lawrence Of Arabia,,TRUE
+1962,1963,20,Best Motion Picture - Drama,Days of Wine and Roses,,FALSE
+1962,1963,20,Best Motion Picture - Drama,Freud,,FALSE
+1962,1963,20,Best Motion Picture - Drama,Lisa,,FALSE
+1962,1963,20,Best Motion Picture - Drama,"Longest Day, The",,FALSE
+1962,1963,20,Best Motion Picture - Drama,"Miracle Worker, The",,FALSE
+1962,1963,20,Best Motion Picture - Drama,Mutiny on the Bounty,,FALSE
+1962,1963,20,Best Motion Picture - Drama,To Kill A Mockingbird,,FALSE
+1962,1963,20,Best Motion Picture - Drama,Hemingway's Adventures of a Young Man,,FALSE
+1962,1963,20,Best Motion Picture - Drama,"Chapman Report, The",,FALSE
+1963,1964,21,Best Motion Picture - Drama,"Cardinal, The",,TRUE
+1963,1964,21,Best Motion Picture - Drama,"America, America",,FALSE
+1963,1964,21,Best Motion Picture - Drama,"Captain Newman, M.D.",,FALSE
+1963,1964,21,Best Motion Picture - Drama,"Caretakers, The",,FALSE
+1963,1964,21,Best Motion Picture - Drama,Cleopatra,,FALSE
+1963,1964,21,Best Motion Picture - Drama,"Great Escape, The",,FALSE
+1963,1964,21,Best Motion Picture - Drama,Hud,,FALSE
+1963,1964,21,Best Motion Picture - Drama,Lilies of the Field,,FALSE
+1964,1965,22,Best Motion Picture - Drama,Becket,,TRUE
+1964,1965,22,Best Motion Picture - Drama,"Chalk Garden, The",,FALSE
+1964,1965,22,Best Motion Picture - Drama,Dear Heart,,FALSE
+1964,1965,22,Best Motion Picture - Drama,"Night of the Iguana, The",,FALSE
+1964,1965,22,Best Motion Picture - Drama,Zorba The Greek,,FALSE
+1965,1966,23,Best Motion Picture - Drama,Doctor Zhivago,,TRUE
+1965,1966,23,Best Motion Picture - Drama,"Collector, The",,FALSE
+1965,1966,23,Best Motion Picture - Drama,"Flight of the Phoenix, The",,FALSE
+1965,1966,23,Best Motion Picture - Drama,"Patch of Blue, A",,FALSE
+1965,1966,23,Best Motion Picture - Drama,Ship of Fools,,FALSE
+1966,1967,24,Best Motion Picture - Drama,"Man for All Seasons, A",,TRUE
+1966,1967,24,Best Motion Picture - Drama,Born Free,,FALSE
+1966,1967,24,Best Motion Picture - Drama,"Professionals, The",,FALSE
+1966,1967,24,Best Motion Picture - Drama,The Sand Pebbles,,FALSE
+1966,1967,24,Best Motion Picture - Drama,Who's Afraid of Virginia Woolf?,,FALSE
+1967,1968,25,Best Motion Picture - Drama,In the Heat of the Night,,TRUE
+1967,1968,25,Best Motion Picture - Drama,Bonnie and Clyde,,FALSE
+1967,1968,25,Best Motion Picture - Drama,Far From The Madding Crowd,,FALSE
+1967,1968,25,Best Motion Picture - Drama,Guess Who's Coming To Dinner,,FALSE
+1967,1968,25,Best Motion Picture - Drama,In Cold Blood,,FALSE
+1968,1969,26,Best Motion Picture - Drama,The Lion in Winter,,TRUE
+1968,1969,26,Best Motion Picture - Drama,Charly,,FALSE
+1968,1969,26,Best Motion Picture - Drama,"Fixer, The",,FALSE
+1968,1969,26,Best Motion Picture - Drama,"Heart Is a Lonely Hunter, The",,FALSE
+1968,1969,26,Best Motion Picture - Drama,"Shoes of the Fisherman, The",,FALSE
+1969,1970,27,Best Motion Picture - Drama,Anne of the Thousand Days,,TRUE
+1969,1970,27,Best Motion Picture - Drama,Butch Cassidy and The Sundance Kid,,FALSE
+1969,1970,27,Best Motion Picture - Drama,Midnight Cowboy,,FALSE
+1969,1970,27,Best Motion Picture - Drama,"Prime of Miss Jean Brodie, The",,FALSE
+1969,1970,27,Best Motion Picture - Drama,"They Shoot Horses, Don't They?",,FALSE
+1970,1971,28,Best Motion Picture - Drama,Love Story,,TRUE
+1970,1971,28,Best Motion Picture - Drama,Five Easy Pieces,,FALSE
+1970,1971,28,Best Motion Picture - Drama,I Never Sang For My Father,,FALSE
+1970,1971,28,Best Motion Picture - Drama,Patton,,FALSE
+1970,1971,28,Best Motion Picture - Drama,Airport,,FALSE
+1971,1972,29,Best Motion Picture - Drama,"French Connection, The",,TRUE
+1971,1972,29,Best Motion Picture - Drama,"Clockwork Orange, A",,FALSE
+1971,1972,29,Best Motion Picture - Drama,"Last Picture Show, The",,FALSE
+1971,1972,29,Best Motion Picture - Drama,"Mary, Queen of Scots",,FALSE
+1971,1972,29,Best Motion Picture - Drama,Summer of '42,,FALSE
+1972,1973,30,Best Motion Picture - Drama,"Godfather, The",,TRUE
+1972,1973,30,Best Motion Picture - Drama,Deliverance,,FALSE
+1972,1973,30,Best Motion Picture - Drama,Frenzy,,FALSE
+1972,1973,30,Best Motion Picture - Drama,"Poseidon Adventure, The",,FALSE
+1972,1973,30,Best Motion Picture - Drama,Sleuth,,FALSE
+1973,1974,31,Best Motion Picture - Drama,"Exorcist, The",,TRUE
+1973,1974,31,Best Motion Picture - Drama,"Day of the Jackal, The",,FALSE
+1973,1974,31,Best Motion Picture - Drama,Last Tango in Paris,,FALSE
+1973,1974,31,Best Motion Picture - Drama,Save the Tiger,,FALSE
+1973,1974,31,Best Motion Picture - Drama,Serpico,,FALSE
+1973,1974,31,Best Motion Picture - Drama,Cinderella Liberty,,FALSE
+1974,1975,32,Best Motion Picture - Drama,Chinatown,,TRUE
+1974,1975,32,Best Motion Picture - Drama,"Conversation, The",,FALSE
+1974,1975,32,Best Motion Picture - Drama,Earthquake,,FALSE
+1974,1975,32,Best Motion Picture - Drama,"Godfather Part II, The",,FALSE
+1974,1975,32,Best Motion Picture - Drama,"Woman Under The Influence, A",,FALSE
+1975,1976,33,Best Motion Picture - Drama,One Flew Over The Cuckoo's Nest,,TRUE
+1975,1976,33,Best Motion Picture - Drama,Barry Lyndon,,FALSE
+1975,1976,33,Best Motion Picture - Drama,Dog Day Afternoon,,FALSE
+1975,1976,33,Best Motion Picture - Drama,Jaws,,FALSE
+1975,1976,33,Best Motion Picture - Drama,Nashville,,FALSE
+1976,1977,34,Best Motion Picture - Drama,Rocky,,TRUE
+1976,1977,34,Best Motion Picture - Drama,Bound for Glory,,FALSE
+1976,1977,34,Best Motion Picture - Drama,Network,,FALSE
+1976,1977,34,Best Motion Picture - Drama,Voyage of the Damned,,FALSE
+1976,1977,34,Best Motion Picture - Drama,All The President's Men,,FALSE
+1977,1978,35,Best Motion Picture - Drama,"Turning Point, The",,TRUE
+1977,1978,35,Best Motion Picture - Drama,Close Encounters of the Third Kind,,FALSE
+1977,1978,35,Best Motion Picture - Drama,I Never Promised You a Rose Garden,,FALSE
+1977,1978,35,Best Motion Picture - Drama,Julia,,FALSE
+1977,1978,35,Best Motion Picture - Drama,Star Wars: Episode IV - A New Hope,,FALSE
+1978,1979,36,Best Motion Picture - Drama,Midnight Express,,TRUE
+1978,1979,36,Best Motion Picture - Drama,Coming Home,,FALSE
+1978,1979,36,Best Motion Picture - Drama,Days of Heaven,,FALSE
+1978,1979,36,Best Motion Picture - Drama,"Deer Hunter, The",,FALSE
+1978,1979,36,Best Motion Picture - Drama,"Unmarried Woman, An",,FALSE
+1979,1980,37,Best Motion Picture - Drama,Kramer vs. Kramer,,TRUE
+1979,1980,37,Best Motion Picture - Drama,Apocalypse Now,,FALSE
+1979,1980,37,Best Motion Picture - Drama,"China Syndrome, The",,FALSE
+1979,1980,37,Best Motion Picture - Drama,Manhattan,,FALSE
+1979,1980,37,Best Motion Picture - Drama,Norma Rae,,FALSE
+1980,1981,38,Best Motion Picture - Drama,Ordinary People,,TRUE
+1980,1981,38,Best Motion Picture - Drama,"Ninth Configuration, The",,FALSE
+1980,1981,38,Best Motion Picture - Drama,Raging Bull,,FALSE
+1980,1981,38,Best Motion Picture - Drama,"Stunt Man, The",,FALSE
+1980,1981,38,Best Motion Picture - Drama,"Elephant Man, The",,FALSE
+1981,1982,39,Best Motion Picture - Drama,On Golden Pond,,TRUE
+1981,1982,39,Best Motion Picture - Drama,"French Lieutenant's Woman, The",,FALSE
+1981,1982,39,Best Motion Picture - Drama,Prince of the City,,FALSE
+1981,1982,39,Best Motion Picture - Drama,Ragtime,,FALSE
+1981,1982,39,Best Motion Picture - Drama,Reds,,FALSE
+1982,1983,40,Best Motion Picture - Drama,E. T. The Extra-Terrestrial,,TRUE
+1982,1983,40,Best Motion Picture - Drama,Missing,,FALSE
+1982,1983,40,Best Motion Picture - Drama,"Officer and a Gentleman, An",,FALSE
+1982,1983,40,Best Motion Picture - Drama,Sophie's Choice,,FALSE
+1982,1983,40,Best Motion Picture - Drama,"Verdict, The",,FALSE
+1983,1984,41,Best Motion Picture - Drama,Terms of Endearment,,TRUE
+1983,1984,41,Best Motion Picture - Drama,"Reuben, Reuben",,FALSE
+1983,1984,41,Best Motion Picture - Drama,"Right Stuff, The",,FALSE
+1983,1984,41,Best Motion Picture - Drama,Silkwood,,FALSE
+1983,1984,41,Best Motion Picture - Drama,Tender Mercies,,FALSE
+1984,1985,42,Best Motion Picture - Drama,Amadeus,,TRUE
+1984,1985,42,Best Motion Picture - Drama,"Killing Fields, The",,FALSE
+1984,1985,42,Best Motion Picture - Drama,Places in the Heart,,FALSE
+1984,1985,42,Best Motion Picture - Drama,"Soldier's Story, A",,FALSE
+1984,1985,42,Best Motion Picture - Drama,"Cotton Club, The",,FALSE
+1985,1986,43,Best Motion Picture - Drama,Out of Africa,,TRUE
+1985,1986,43,Best Motion Picture - Drama,"Color Purple, The",,FALSE
+1985,1986,43,Best Motion Picture - Drama,Kiss of the Spider Woman,,FALSE
+1985,1986,43,Best Motion Picture - Drama,Runaway Train,,FALSE
+1985,1986,43,Best Motion Picture - Drama,Witness,,FALSE
+1986,1987,44,Best Motion Picture - Drama,Platoon,,TRUE
+1986,1987,44,Best Motion Picture - Drama,Children of a Lesser God,,FALSE
+1986,1987,44,Best Motion Picture - Drama,"Mission, The",,FALSE
+1986,1987,44,Best Motion Picture - Drama,Mona Lisa,,FALSE
+1986,1987,44,Best Motion Picture - Drama,"Room with a View, A",,FALSE
+1986,1987,44,Best Motion Picture - Drama,Stand By Me,,FALSE
+1987,1988,45,Best Motion Picture - Drama,"Last Emperor, The",,TRUE
+1987,1988,45,Best Motion Picture - Drama,Empire of the Sun,,FALSE
+1987,1988,45,Best Motion Picture - Drama,Fatal Attraction,,FALSE
+1987,1988,45,Best Motion Picture - Drama,La Bamba,,FALSE
+1987,1988,45,Best Motion Picture - Drama,Nuts,,FALSE
+1987,1988,45,Best Motion Picture - Drama,Cry Freedom,,FALSE
+1988,1989,46,Best Motion Picture - Drama,Rain Man,,TRUE
+1988,1989,46,Best Motion Picture - Drama,"Cry in the Dark, A",,FALSE
+1988,1989,46,Best Motion Picture - Drama,Gorillas in the Mist: The Adventure of Dian Fossey,,FALSE
+1988,1989,46,Best Motion Picture - Drama,Mississippi Burning,,FALSE
+1988,1989,46,Best Motion Picture - Drama,Running on Empty,,FALSE
+1988,1989,46,Best Motion Picture - Drama,"Unbearable Lightness of Being, The",,FALSE
+1988,1989,46,Best Motion Picture - Drama,"Accidental Tourist, The",,FALSE
+1989,1990,47,Best Motion Picture - Drama,Born on the Fourth of July,,TRUE
+1989,1990,47,Best Motion Picture - Drama,Crimes and Misdemeanors,,FALSE
+1989,1990,47,Best Motion Picture - Drama,Dead Poets Society,,FALSE
+1989,1990,47,Best Motion Picture - Drama,Do The Right Thing,,FALSE
+1989,1990,47,Best Motion Picture - Drama,Glory,,FALSE
+1990,1991,48,Best Motion Picture - Drama,Dances with Wolves,,TRUE
+1990,1991,48,Best Motion Picture - Drama,Avalon,,FALSE
+1990,1991,48,Best Motion Picture - Drama,"Godfather Part III, The",,FALSE
+1990,1991,48,Best Motion Picture - Drama,GoodFellas,,FALSE
+1990,1991,48,Best Motion Picture - Drama,Reversal of Fortune,,FALSE
+1991,1992,49,Best Motion Picture - Drama,Bugsy,,TRUE
+1991,1992,49,Best Motion Picture - Drama,JFK,,FALSE
+1991,1992,49,Best Motion Picture - Drama,"Prince of Tides, The",,FALSE
+1991,1992,49,Best Motion Picture - Drama,"Silence of the Lambs, The",,FALSE
+1991,1992,49,Best Motion Picture - Drama,Thelma & Louise,,FALSE
+1992,1993,50,Best Motion Picture - Drama,Scent of a Woman,,TRUE
+1992,1993,50,Best Motion Picture - Drama,"Few Good Men, A",,FALSE
+1992,1993,50,Best Motion Picture - Drama,Howards End,,FALSE
+1992,1993,50,Best Motion Picture - Drama,Unforgiven,,FALSE
+1992,1993,50,Best Motion Picture - Drama,"Crying Game, The",,FALSE
+1993,1994,51,Best Motion Picture - Drama,Schindler's List,,TRUE
+1993,1994,51,Best Motion Picture - Drama,In the Name of the Father,,FALSE
+1993,1994,51,Best Motion Picture - Drama,The Piano,,FALSE
+1993,1994,51,Best Motion Picture - Drama," Remains of the Day, The",,FALSE
+1993,1994,51,Best Motion Picture - Drama,"Age of Innocence, The",,FALSE
+1994,1995,52,Best Motion Picture - Drama,Forrest Gump,,TRUE
+1994,1995,52,Best Motion Picture - Drama,Legends of the Fall,,FALSE
+1994,1995,52,Best Motion Picture - Drama,Nell,,FALSE
+1994,1995,52,Best Motion Picture - Drama,Pulp Fiction,,FALSE
+1994,1995,52,Best Motion Picture - Drama,Quiz Show,,FALSE
+1995,1996,53,Best Motion Picture - Drama,Sense and Sensibility,,TRUE
+1995,1996,53,Best Motion Picture - Drama,Braveheart,,FALSE
+1995,1996,53,Best Motion Picture - Drama,"Bridges of Madison County, The",,FALSE
+1995,1996,53,Best Motion Picture - Drama,Leaving Las Vegas,,FALSE
+1995,1996,53,Best Motion Picture - Drama,Apollo 13,,FALSE
+1996,1997,54,Best Motion Picture - Drama,The English Patient,,TRUE
+1996,1997,54,Best Motion Picture - Drama,"People vs. Larry Flynt, The",,FALSE
+1996,1997,54,Best Motion Picture - Drama,Secrets & Lies,,FALSE
+1996,1997,54,Best Motion Picture - Drama,Shine,,FALSE
+1996,1997,54,Best Motion Picture - Drama,Breaking the Waves,,FALSE
+1997,1998,55,Best Motion Picture - Drama,Titanic,,TRUE
+1997,1998,55,Best Motion Picture - Drama,"Boxer, The",,FALSE
+1997,1998,55,Best Motion Picture - Drama,Good Will Hunting,,FALSE
+1997,1998,55,Best Motion Picture - Drama,L.A. Confidential,,FALSE
+1997,1998,55,Best Motion Picture - Drama,Amistad,,FALSE
+1998,1999,56,Best Motion Picture - Drama,Saving Private Ryan,,TRUE
+1998,1999,56,Best Motion Picture - Drama,Gods and Monsters,,FALSE
+1998,1999,56,Best Motion Picture - Drama,"Horse Whisperer, The",,FALSE
+1998,1999,56,Best Motion Picture - Drama,The Truman Show,,FALSE
+1998,1999,56,Best Motion Picture - Drama,Elizabeth,,FALSE
+1999,2000,57,Best Motion Picture - Drama,American Beauty,,TRUE
+1999,2000,57,Best Motion Picture - Drama,The End of the Affair,,FALSE
+1999,2000,57,Best Motion Picture - Drama,"Hurricane, The",,FALSE
+1999,2000,57,Best Motion Picture - Drama,The Insider,,FALSE
+1999,2000,57,Best Motion Picture - Drama,The Talented Mr. Ripley,,FALSE
+2000,2001,58,Best Motion Picture - Drama,Gladiator,,TRUE
+2000,2001,58,Best Motion Picture - Drama,Billy Elliot,,FALSE
+2000,2001,58,Best Motion Picture - Drama,Erin Brockovich,,FALSE
+2000,2001,58,Best Motion Picture - Drama,Sunshine,,FALSE
+2000,2001,58,Best Motion Picture - Drama,Traffic,,FALSE
+2000,2001,58,Best Motion Picture - Drama,Wonder Boys,,FALSE
+2001,2002,59,Best Motion Picture - Drama,A Beautiful Mind,,TRUE
+2001,2002,59,Best Motion Picture - Drama,In the Bedroom,,FALSE
+2001,2002,59,Best Motion Picture - Drama,The Lord of the Rings: The Fellowship of the Ring,,FALSE
+2001,2002,59,Best Motion Picture - Drama,"Man Who Wasn't There, The",,FALSE
+2001,2002,59,Best Motion Picture - Drama,Mulholland Dr.,,FALSE
+2002,2003,60,Best Motion Picture - Drama,The Hours,,TRUE
+2002,2003,60,Best Motion Picture - Drama,About Schmidt,,FALSE
+2002,2003,60,Best Motion Picture - Drama,Gangs of New York,,FALSE
+2002,2003,60,Best Motion Picture - Drama,"Lord of the Rings: The Two Towers, The",,FALSE
+2002,2003,60,Best Motion Picture - Drama,"Pianist, The",,FALSE
+2003,2004,61,Best Motion Picture - Drama,The Lord of the Rings: The Return of the King,,TRUE
+2003,2004,61,Best Motion Picture - Drama,Cold Mountain,,FALSE
+2003,2004,61,Best Motion Picture - Drama,Master and Commander: The Far Side of the World,,FALSE
+2003,2004,61,Best Motion Picture - Drama,Mystic River,,FALSE
+2003,2004,61,Best Motion Picture - Drama,Seabiscuit,,FALSE
+2004,2005,62,Best Motion Picture - Drama,The Aviator,,TRUE
+2004,2005,62,Best Motion Picture - Drama,Closer,,FALSE
+2004,2005,62,Best Motion Picture - Drama,Finding Neverland,,FALSE
+2004,2005,62,Best Motion Picture - Drama,Hotel Rwanda,,FALSE
+2004,2005,62,Best Motion Picture - Drama,Kinsey,,FALSE
+2004,2005,62,Best Motion Picture - Drama,Million Dollar Baby,,FALSE
+2005,2006,63,Best Motion Picture - Drama,Brokeback Mountain,,TRUE
+2005,2006,63,Best Motion Picture - Drama,Match Point,,FALSE
+2005,2006,63,Best Motion Picture - Drama,"Constant Gardener, The",,FALSE
+2005,2006,63,Best Motion Picture - Drama,"Good Night, and Good Luck",,FALSE
+2005,2006,63,Best Motion Picture - Drama,A History of Violence,,FALSE
+2006,2007,64,Best Motion Picture - Drama,Babel,,TRUE
+2006,2007,64,Best Motion Picture - Drama,Bobby,,FALSE
+2006,2007,64,Best Motion Picture - Drama,"Departed, The",,FALSE
+2006,2007,64,Best Motion Picture - Drama,Little Children,,FALSE
+2006,2007,64,Best Motion Picture - Drama,"Queen, The",,FALSE
+2007,2008,65,Best Motion Picture - Drama,Atonement,,TRUE
+2007,2008,65,Best Motion Picture - Drama,Michael Clayton,,FALSE
+2007,2008,65,Best Motion Picture - Drama,No Country for Old Men,,FALSE
+2007,2008,65,Best Motion Picture - Drama,There Will Be Blood,,FALSE
+2007,2008,65,Best Motion Picture - Drama,American Gangster,,FALSE
+2007,2008,65,Best Motion Picture - Drama,Eastern Promises,,FALSE
+2007,2008,65,Best Motion Picture - Drama,"Great Debaters, The",,FALSE
+2008,2009,66,Best Motion Picture - Drama,Slumdog Millionaire,,TRUE
+2008,2009,66,Best Motion Picture - Drama,The Curious Case of Benjamin Button,,FALSE
+2008,2009,66,Best Motion Picture - Drama,Frost/Nixon,,FALSE
+2008,2009,66,Best Motion Picture - Drama,"Reader, The",,FALSE
+2008,2009,66,Best Motion Picture - Drama,Revolutionary Road,,FALSE
+2009,2010,67,Best Motion Picture - Drama,Avatar,,TRUE
+2009,2010,67,Best Motion Picture - Drama,"Hurt Locker, The",,FALSE
+2009,2010,67,Best Motion Picture - Drama,Inglourious Basterds,,FALSE
+2009,2010,67,Best Motion Picture - Drama,Precious: Based On The Novel Push By Sapphire,,FALSE
+2009,2010,67,Best Motion Picture - Drama,Up In The Air,,FALSE
+2010,2011,68,Best Motion Picture - Drama,The Social Network,,TRUE
+2010,2011,68,Best Motion Picture - Drama,Black Swan,,FALSE
+2010,2011,68,Best Motion Picture - Drama,"Fighter, The",,FALSE
+2010,2011,68,Best Motion Picture - Drama,Inception,,FALSE
+2010,2011,68,Best Motion Picture - Drama,The King's Speech,,FALSE
+2011,2012,69,Best Motion Picture - Drama,"Descendants, The",,TRUE
+2011,2012,69,Best Motion Picture - Drama,Moneyball,,FALSE
+2011,2012,69,Best Motion Picture - Drama,War Horse,,FALSE
+2011,2012,69,Best Motion Picture - Drama,The Help,,FALSE
+2011,2012,69,Best Motion Picture - Drama,Hugo,,FALSE
+2011,2012,69,Best Motion Picture - Drama,"Ides of March, The",,FALSE
+2012,2013,70,Best Motion Picture - Drama,Argo,,TRUE
+2012,2013,70,Best Motion Picture - Drama,Life of Pi,,FALSE
+2012,2013,70,Best Motion Picture - Drama,Lincoln,,FALSE
+2012,2013,70,Best Motion Picture - Drama,"Zero Dark Thirty 	",,FALSE
+2012,2013,70,Best Motion Picture - Drama,Django Unchained,,FALSE
+2013,2014,71,Best Motion Picture - Drama,12 Years a Slave,,TRUE
+2013,2014,71,Best Motion Picture - Drama,Captain Phillips,,FALSE
+2013,2014,71,Best Motion Picture - Drama,Gravity,,FALSE
+2013,2014,71,Best Motion Picture - Drama,Philomena,,FALSE
+2013,2014,71,Best Motion Picture - Drama,Rush,,FALSE
+2014,2015,72,Best Motion Picture - Drama,Boyhood,,TRUE
+2014,2015,72,Best Motion Picture - Drama,The Imitation Game,,FALSE
+2014,2015,72,Best Motion Picture - Drama,Selma,,FALSE
+2014,2015,72,Best Motion Picture - Drama,Foxcatcher,,FALSE
+2014,2015,72,Best Motion Picture - Drama,The Theory of Everything,,FALSE
+2015,2016,73,Best Motion Picture - Drama,The Revenant,,TRUE
+2015,2016,73,Best Motion Picture - Drama,Carol,,FALSE
+2015,2016,73,Best Motion Picture - Drama,Mad Max: Fury Road,,FALSE
+2015,2016,73,Best Motion Picture - Drama,Room,,FALSE
+2015,2016,73,Best Motion Picture - Drama,Spotlight,,FALSE
+2016,2017,74,Best Motion Picture - Drama,Moonlight,,TRUE
+2016,2017,74,Best Motion Picture - Drama,Hell or High Water,,FALSE
+2016,2017,74,Best Motion Picture - Drama,Lion,,FALSE
+2016,2017,74,Best Motion Picture - Drama,Manchester by the Sea,,FALSE
+2016,2017,74,Best Motion Picture - Drama,Hacksaw Ridge,,FALSE
+2017,2018,75,Best Motion Picture - Drama,"Three Billboards Outside Ebbing, Missouri",,TRUE
+2017,2018,75,Best Motion Picture - Drama,Call Me By Your Name,,FALSE
+2017,2018,75,Best Motion Picture - Drama,Dunkirk,,FALSE
+2017,2018,75,Best Motion Picture - Drama,The Post,,FALSE
+2017,2018,75,Best Motion Picture - Drama,The Shape of Water,,FALSE
+2018,2019,76,Best Motion Picture - Drama,Bohemian Rhapsody,,TRUE
+2018,2019,76,Best Motion Picture - Drama,BlacKkKlansman,,FALSE
+2018,2019,76,Best Motion Picture - Drama,If Beale Street Could Talk,,FALSE
+2018,2019,76,Best Motion Picture - Drama,"Star Is Born, A (2018)",,FALSE
+2018,2019,76,Best Motion Picture - Drama,Black Panther,,FALSE
+2019,2020,77,Best Motion Picture - Drama,1917,,TRUE
+2019,2020,77,Best Motion Picture - Drama,"Irishman, The",,FALSE
+2019,2020,77,Best Motion Picture - Drama,Joker,,FALSE
+2019,2020,77,Best Motion Picture - Drama,Marriage Story,,FALSE
+2019,2020,77,Best Motion Picture - Drama,"Two Popes, The",,FALSE
