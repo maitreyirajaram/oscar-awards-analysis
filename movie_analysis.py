@@ -32,6 +32,8 @@ class MovieAnalyzer(object):
         self.all_budgets.append(budget)
         self.all_titles.append(title)
 
+
+
     def get_cast(self, movie_id):
         call = 'https://api.themoviedb.org/3/movie/' + str(movie_id) + '/credits?api_key=' + config.MY_KEY
         r = requests.get(call)
@@ -109,12 +111,13 @@ class MovieAnalyzer(object):
 
     
 def main():
-    result = MovieAnalyzer().make_dataframes()
-    movies = result[0]
-    actors = result[1]
-    #print final dataframes
-    print(movies)
-    print(actors)
+   result = MovieAnalyzer().make_dataframes()
+   movies = result[0]
+   actors = result[1]
+   #print final dataframes
+   print(movies)
+   print(actors)
+
 
 
 
