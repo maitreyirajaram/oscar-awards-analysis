@@ -139,7 +139,6 @@ def main():
    print(movies)
    print(actors)
 
-   movies.to_csv('data/CombinedData.csv', header=True)
 
 
 
