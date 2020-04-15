@@ -3,7 +3,7 @@ import config
 import requests
 
 
-#TODO- actor race, add ratings from combination of different sources, topics of the winning movies (how to determine if they were topical when released)
+#TODO- actor race, add ratings from combination of different sources, DIRECTOR GENDERS???
 
 
 ##globals
@@ -94,7 +94,7 @@ class MovieAnalyzer(object):
         award_info = award_info.rename(columns={"Const": 'ID'})
         award_info = award_info.set_index('ID')
         #award_info['Award'] = award_info.apply(lambda row: self.get_award(row['Description'], row['Year']), axis=1)
-        award_info['Award_Year'] = award_info.apply(lambda row: row['Year'] +1, axis=1)
+        award_info['Award Year'] = award_info.apply(lambda row: row['Year'] +1, axis=1)
         award_info['Winner'] = award_info.apply(lambda  row: self.is_award(row['Description']), axis=1)
         award_info = award_info.drop(columns=['Description'])
 
