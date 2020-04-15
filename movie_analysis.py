@@ -14,6 +14,9 @@ class MovieAnalyzer(object):
         self.all_casts = []  # list of list of tuples (actor name, cast no) for each film
         self.all_budgets = []
         self.all_titles = []
+        self.all_genres = []
+        self.all_release_dates = []
+        self.all_runtimes = []
         self.all_keywords = []  # list of list of keywords for each film
         self.all_actors = []  # list of names
         # FULL CAST/GENDERS FOR EACH: 2 - guy, 1 - girl, ignore 0s (unfortunately makes for small margin of error)
@@ -29,8 +32,21 @@ class MovieAnalyzer(object):
         r = requests.get(call)
         budget = r.json().get('budget')
         title = r.json().get('original_title')
+        runtime = r.json().get('runtime')
+        rel_date = r.json().get('release_date')
+        genres = r.json().get('genres')
+        film_genres = []
+        if genres is None:
+            film_genres = []
+        else:
+            for pair in genres:
+                film_genres.append(pair['name'])
+
+        self.all_genres.append(film_genres)
         self.all_budgets.append(budget)
         self.all_titles.append(title)
+        self.all_release_dates.append(rel_date)
+        self.all_runtimes.append(runtime)
 
 
     def get_cast(self, movie_id):
@@ -82,7 +98,6 @@ class MovieAnalyzer(object):
         oscar_movies = MovieAnalyzer().get_movie_ids("data/BestPictureAcademyAward.csv")
         gg_movies = MovieAnalyzer().get_movie_ids("data/GoldenGlobesData.csv")
         movies = pd.merge(oscar_movies,gg_movies,how='outer',left_on='Const', right_on='Const')
-
         for Const in movies.itertuples():  # for each movie title
             movie_id = (Const[1])
             self.get_cast(movie_id)
@@ -93,11 +108,14 @@ class MovieAnalyzer(object):
         movies['Cast'] = self.all_casts
         movies['Budget'] = self.all_budgets
         movies['Keywords'] = self.all_keywords
+        movies['Genres'] = self.all_genres
+        movies['Release Date'] = self.all_release_dates
+        movies['Runtime'] = self.all_runtimes
         actors = pd.DataFrame(self.all_actors, columns=['Name'])
         actors['Gender'] = self.all_actor_genders
 
         award_info = pd.read_csv('data/BestPictureAcademyAward.csv', encoding="ISO-8859-1")
-        award_info = award_info.drop(columns=['Position', 'Title', 'Created', 'Modified', 'URL', 'Title Type'])
+        award_info = award_info.drop(columns=['Position', 'Title', 'Created', 'Modified', 'Genres', 'URL', 'Title Type', 'Runtime (mins)', 'Release Date'])
         award_info = award_info.rename(columns={"Const": 'ID'})
         award_info = award_info.set_index('ID')
         #award_info['Award'] = award_info.apply(lambda row: self.get_award(row['Description'], row['Year']), axis=1)
@@ -118,9 +136,10 @@ class MovieAnalyzer(object):
         df = df.drop(columns=['ID', 'Film'])
         df = df.rename(columns={"Const": 'ID'})
         df = df.set_index('ID')
-        df = df[['Title', 'Cast', 'Budget', 'Keywords', 'Bechdel Pass']]
+        #df = df[['Title', 'Cast', 'Budget', 'Keywords', 'Genres', 'Runtime','Release Date', 'Bechdel Pass']]
 
         df1 = pd.merge(df, award_info, how='left', left_index=True, right_index=True)
+
         final_df = pd.merge(df1, gg_award_info, how='outer', left_index=True, right_index=True)
 
         final_df['Year'] = final_df['Year_x'].fillna(final_df['Year_y'])
@@ -137,6 +156,8 @@ def main():
    actors = result[1]
    #print final dataframes
    print(movies)
+   for col in movies.columns:
+       print(col)
    print(actors)
 
 
