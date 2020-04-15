@@ -1,0 +1,364 @@
+Const,year_film,year_award,category,film,win,title
+tt0036377,1943,1944,Picture,,TRUE,The Song Of Bernadette
+tt0036868,1946,1947,Picture,,TRUE,The Best Years Of Our Lives
+tt0036872,1944,1945,Picture,,TRUE,Going My Way
+tt0037884,1945,1946,Picture,,TRUE,The Lost Weekend
+tt0039416,1947,1948,Picture,,TRUE,Gentleman's Agreement
+tt0040495,1948,1949,Picture,,TRUE,Johnny Belinda
+tt0040897,1948,1949,Picture,,TRUE,The Treasure of the Sierra Madre
+tt0041257,1949,1950,Picture,,FALSE,Come To The Stable
+tt0042367,1950,1951,Picture,,FALSE,Cyrano de Bergerac (1950)
+tt0043014,1950,1951,Picture,,TRUE,Sunset Boulevard
+tt0043361,1951,1952,Best Motion Picture - Drama,,FALSE,Bright Victory
+tt0043465,1951,1952,Best Motion Picture - Drama,,FALSE,Detective Story
+tt0043924,1951,1952,Best Motion Picture - Drama,,TRUE,A Place In The Sun
+tt0043949,1951,1952,Best Motion Picture - Drama,,FALSE,Quo Vadis?
+tt0044081,1951,1952,Best Motion Picture - Drama,,FALSE,A Streetcar Named Desire (1951)
+tt0044509,1952,1953,Best Motion Picture - Drama,,FALSE,"Come Back, Little Sheba"
+tt0044672,1952,1953,Best Motion Picture - Drama,,TRUE,The Greatest Show On Earth
+tt0044687,1952,1953,Best Motion Picture - Drama,,FALSE,The Happy Time
+tt0044706,1952,1953,Best Motion Picture - Drama,,FALSE,High Noon
+tt0045230,1952,1953,Best Motion Picture - Drama,,FALSE,The Thief
+tt0046247,1953,1954,Best Motion Picture - Drama,,TRUE,"Robe, The"
+tt0047296,1954,1955,Best Motion Picture - Drama,,TRUE,On the Waterfront
+tt0048028,1955,1956,Best Motion Picture - Drama,,TRUE,East of Eden
+tt0049261,1956,1957,Best Motion Picture - Drama,,FALSE,Giant
+tt0049456,1956,1957,Best Motion Picture - Drama,,FALSE,Lust For Life
+tt0049934,1956,1957,Best Motion Picture - Drama,,FALSE,War and Peace
+tt0050083,1957,1958,Best Motion Picture - Drama,,FALSE,12 Angry Men (1957)
+tt0050212,1957,1958,Best Motion Picture - Drama,,TRUE,"Bridge on the River Kwai, The"
+tt0050933,1957,1958,Best Motion Picture - Drama,,FALSE,Sayonara
+tt0051193,1957,1958,Best Motion Picture - Drama,,FALSE,Wild is the Wind
+tt0051201,1957,1958,Best Motion Picture - Drama,,FALSE,Witness for the Prosecution
+tt0051459,1958,1959,Best Motion Picture - Drama,,FALSE,Cat on a Hot Tin Roof
+tt0051525,1958,1959,Best Motion Picture - Drama,,TRUE,"Defiant Ones, The"
+tt0051732,1958,1959,Best Motion Picture - Drama,,FALSE,Home Before Dark
+tt0051758,1958,1959,Best Motion Picture - Drama,,FALSE,I Want To Live!
+tt0052182,1958,1959,Best Motion Picture - Drama,,FALSE,Separate Tables
+tt0052561,1959,1960,Best Motion Picture - Drama,,FALSE,Anatomy of a Murder
+tt0052618,1959,1960,Best Motion Picture - Drama,,TRUE,Ben-Hur
+tt0052738,1959,1960,Best Motion Picture - Drama,,FALSE,"Diary of Anne Frank, The"
+tt0053131,1959,1960,Best Motion Picture - Drama,,FALSE,"Nun's Story, The"
+tt0053137,1959,1960,Best Motion Picture - Drama,,FALSE,On The Beach
+tt0053793,1960,1961,Best Motion Picture - Drama,,FALSE,Elmer Gantry
+tt0053946,1960,1961,Best Motion Picture - Drama,,FALSE,Inherit the Wind - 1960
+tt0054326,1960,1961,Best Motion Picture - Drama,,FALSE,Sons and Lovers
+tt0054331,1960,1961,Best Motion Picture - Drama,,TRUE,Spartacus
+tt0054354,1960,1961,Best Motion Picture - Drama,,FALSE,Sunrise at Campobello
+tt0054847,1961,1962,Best Motion Picture - Drama,,FALSE,El Cid
+tt0054866,1961,1962,Best Motion Picture - Drama,,FALSE,Fanny
+tt0054953,1961,1962,Best Motion Picture - Drama,,TRUE,The Guns Of Navarone
+tt0055031,1961,1962,Best Motion Picture - Drama,,FALSE,Judgment at Nuremberg
+tt0055471,1961,1962,Best Motion Picture - Drama,,FALSE,Splendor in the Grass
+tt0055841,1962,1963,Best Motion Picture - Drama,,FALSE,"Chapman Report, The"
+tt0055895,1962,1963,Best Motion Picture - Drama,,FALSE,Days of Wine and Roses
+tt0055998,1962,1963,Best Motion Picture - Drama,,FALSE,Freud
+tt0056063,1962,1963,Best Motion Picture - Drama,,FALSE,Hemingway's Adventures of a Young Man
+tt0056172,1962,1963,Best Motion Picture - Drama,,TRUE,Lawrence Of Arabia
+tt0056197,1962,1963,Best Motion Picture - Drama,,FALSE,"Longest Day, The"
+tt0056241,1962,1963,Best Motion Picture - Drama,,FALSE,"Miracle Worker, The"
+tt0056592,1962,1963,Best Motion Picture - Drama,,FALSE,To Kill A Mockingbird
+tt0056825,1963,1964,Best Motion Picture - Drama,,FALSE,"America, America"
+tt0056903,1963,1964,Best Motion Picture - Drama,,FALSE,"Captain Newman, M.D."
+tt0056907,1963,1964,Best Motion Picture - Drama,,TRUE,"Cardinal, The"
+tt0056937,1963,1964,Best Motion Picture - Drama,,FALSE,Cleopatra
+tt0057115,1963,1964,Best Motion Picture - Drama,,FALSE,"Great Escape, The"
+tt0057163,1963,1964,Best Motion Picture - Drama,,FALSE,Hud
+tt0057251,1963,1964,Best Motion Picture - Drama,,FALSE,Lilies of the Field
+tt0057831,1964,1965,Best Motion Picture - Drama,,FALSE,Zorba The Greek
+tt0057877,1964,1965,Best Motion Picture - Drama,,TRUE,Becket
+tt0057933,1964,1965,Best Motion Picture - Drama,,FALSE,"Chalk Garden, The"
+tt0057999,1964,1965,Best Motion Picture - Drama,,FALSE,Dear Heart
+tt0058404,1964,1965,Best Motion Picture - Drama,,FALSE,"Night of the Iguana, The"
+tt0059113,1965,1966,Best Motion Picture - Drama,,TRUE,Doctor Zhivago
+tt0059573,1965,1966,Best Motion Picture - Drama,,FALSE,"Patch of Blue, A"
+tt0059712,1965,1966,Best Motion Picture - Drama,,FALSE,Ship of Fools
+tt0060182,1966,1967,Best Motion Picture - Drama,,FALSE,Born Free
+tt0060665,1966,1967,Best Motion Picture - Drama,,TRUE,"Man for All Seasons, A"
+tt0060862,1966,1967,Best Motion Picture - Drama,,FALSE,"Professionals, The"
+tt0060934,1966,1967,Best Motion Picture - Drama,,FALSE,The Sand Pebbles
+tt0061184,1966,1967,Best Motion Picture - Drama,,FALSE,Who's Afraid of Virginia Woolf?
+tt0061418,1967,1968,Best Motion Picture - Drama,,FALSE,Bonnie and Clyde
+tt0061735,1967,1968,Best Motion Picture - Drama,,FALSE,Guess Who's Coming To Dinner
+tt0061809,1967,1968,Best Motion Picture - Drama,,FALSE,In Cold Blood
+tt0061811,1967,1968,Best Motion Picture - Drama,,TRUE,In the Heat of the Night
+tt0062794,1968,1969,Best Motion Picture - Drama,,FALSE,Charly
+tt0062977,1968,1969,Best Motion Picture - Drama,,FALSE,"Fixer, The"
+tt0063050,1968,1969,Best Motion Picture - Drama,,FALSE,"Heart Is a Lonely Hunter, The"
+tt0063227,1968,1969,Best Motion Picture - Drama,,TRUE,The Lion in Winter
+tt0063599,1968,1969,Best Motion Picture - Drama,,FALSE,"Shoes of the Fisherman, The"
+tt0064030,1969,1970,Best Motion Picture - Drama,,TRUE,Anne of the Thousand Days
+tt0064115,1969,1970,Best Motion Picture - Drama,,FALSE,Butch Cassidy and The Sundance Kid
+tt0064665,1969,1970,Best Motion Picture - Drama,,FALSE,Midnight Cowboy
+tt0064840,1969,1970,Best Motion Picture - Drama,,FALSE,"Prime of Miss Jean Brodie, The"
+tt0065088,1969,1970,Best Motion Picture - Drama,,FALSE,"They Shoot Horses, Don't They?"
+tt0065377,1970,1971,Best Motion Picture - Drama,,FALSE,Airport
+tt0065724,1970,1971,Best Motion Picture - Drama,,FALSE,Five Easy Pieces
+tt0065872,1970,1971,Best Motion Picture - Drama,,FALSE,I Never Sang For My Father
+tt0066011,1970,1971,Best Motion Picture - Drama,,TRUE,Love Story
+tt0066206,1970,1971,Best Motion Picture - Drama,,FALSE,Patton
+tt0066921,1971,1972,Best Motion Picture - Drama,,FALSE,"Clockwork Orange, A"
+tt0067116,1971,1972,Best Motion Picture - Drama,,TRUE,"French Connection, The"
+tt0067328,1971,1972,Best Motion Picture - Drama,,FALSE,"Last Picture Show, The"
+tt0067803,1971,1972,Best Motion Picture - Drama,,FALSE,Summer of '42
+tt0068473,1972,1973,Best Motion Picture - Drama,,FALSE,Deliverance
+tt0068611,1972,1973,Best Motion Picture - Drama,,FALSE,Frenzy
+tt0068646,1972,1973,Best Motion Picture - Drama,,TRUE,"Godfather, The"
+tt0069113,1972,1973,Best Motion Picture - Drama,,FALSE,"Poseidon Adventure, The"
+tt0069281,1972,1973,Best Motion Picture - Drama,,FALSE,Sleuth
+tt0069883,1973,1974,Best Motion Picture - Drama,,FALSE,Cinderella Liberty
+tt0069947,1973,1974,Best Motion Picture - Drama,,FALSE,"Day of the Jackal, The"
+tt0070047,1973,1974,Best Motion Picture - Drama,,TRUE,"Exorcist, The"
+tt0070640,1973,1974,Best Motion Picture - Drama,,FALSE,Save the Tiger
+tt0070666,1973,1974,Best Motion Picture - Drama,,FALSE,Serpico
+tt0070849,1973,1974,Best Motion Picture - Drama,,FALSE,Last Tango in Paris
+tt0071315,1974,1975,Best Motion Picture - Drama,,TRUE,Chinatown
+tt0071360,1974,1975,Best Motion Picture - Drama,,FALSE,"Conversation, The"
+tt0071455,1974,1975,Best Motion Picture - Drama,,FALSE,Earthquake
+tt0071562,1974,1975,Best Motion Picture - Drama,,FALSE,"Godfather Part II, The"
+tt0075148,1976,1977,Best Motion Picture - Drama,,TRUE,Rocky
+tt0072417,1974,1975,Best Motion Picture - Drama,,FALSE,"Woman Under The Influence, A"
+tt0072684,1975,1976,Best Motion Picture - Drama,,FALSE,Barry Lyndon
+tt0072890,1975,1976,Best Motion Picture - Drama,,FALSE,Dog Day Afternoon
+tt0073195,1975,1976,Best Motion Picture - Drama,,FALSE,Jaws
+tt0073440,1975,1976,Best Motion Picture - Drama,,FALSE,Nashville
+tt0073486,1975,1976,Best Motion Picture - Drama,,TRUE,One Flew Over The Cuckoo's Nest
+tt0074119,1976,1977,Best Motion Picture - Drama,,FALSE,All The President's Men
+tt0074235,1976,1977,Best Motion Picture - Drama,,FALSE,Bound for Glory
+tt0074958,1976,1977,Best Motion Picture - Drama,,FALSE,Network
+tt0075406,1976,1977,Best Motion Picture - Drama,,FALSE,Voyage of the Damned
+tt0075860,1977,1978,Best Motion Picture - Drama,,FALSE,Close Encounters of the Third Kind
+tt0076172,1977,1978,Best Motion Picture - Drama,,FALSE,I Never Promised You a Rose Garden
+tt0076245,1977,1978,Best Motion Picture - Drama,,FALSE,Julia
+tt0076759,1977,1978,Best Motion Picture - Drama,,FALSE,Star Wars: Episode IV - A New Hope
+tt0077362,1978,1979,Best Motion Picture - Drama,,FALSE,Coming Home
+tt0077405,1978,1979,Best Motion Picture - Drama,,FALSE,Days of Heaven
+tt0077416,1978,1979,Best Motion Picture - Drama,,FALSE,"Deer Hunter, The"
+tt0077928,1978,1979,Best Motion Picture - Drama,,TRUE,Midnight Express
+tt0078444,1978,1979,Best Motion Picture - Drama,,FALSE,"Unmarried Woman, An"
+tt0078788,1979,1980,Best Motion Picture - Drama,,FALSE,Apocalypse Now
+tt0078966,1979,1980,Best Motion Picture - Drama,,FALSE,"China Syndrome, The"
+tt0079417,1979,1980,Best Motion Picture - Drama,,TRUE,Kramer vs. Kramer
+tt0079638,1979,1980,Best Motion Picture - Drama,,FALSE,Norma Rae
+tt0080678,1980,1981,Best Motion Picture - Drama,,FALSE,"Elephant Man, The"
+tt0081237,1980,1981,Best Motion Picture - Drama,,FALSE,"Ninth Configuration, The"
+tt0081283,1980,1981,Best Motion Picture - Drama,,TRUE,Ordinary People
+tt0081398,1980,1981,Best Motion Picture - Drama,,FALSE,Raging Bull
+tt0081568,1980,1981,Best Motion Picture - Drama,,FALSE,"Stunt Man, The"
+tt0082416,1981,1982,Best Motion Picture - Drama,,FALSE,"French Lieutenant's Woman, The"
+tt0082846,1981,1982,Best Motion Picture - Drama,,TRUE,On Golden Pond
+tt0082945,1981,1982,Best Motion Picture - Drama,,FALSE,Prince of the City
+tt0082970,1981,1982,Best Motion Picture - Drama,,FALSE,Ragtime
+tt0082979,1981,1982,Best Motion Picture - Drama,,FALSE,Reds
+tt0083866,1982,1983,Best Motion Picture - Drama,,TRUE,E. T. The Extra-Terrestrial
+tt0084335,1982,1983,Best Motion Picture - Drama,,FALSE,Missing
+tt0084434,1982,1983,Best Motion Picture - Drama,,FALSE,"Officer and a Gentleman, An"
+tt0084591,1983,1984,Best Motion Picture - Drama,,FALSE,"Reuben, Reuben"
+tt0084707,1982,1983,Best Motion Picture - Drama,,FALSE,Sophie's Choice
+tt0084855,1982,1983,Best Motion Picture - Drama,,FALSE,"Verdict, The"
+tt0086197,1983,1984,Best Motion Picture - Drama,,FALSE,"Right Stuff, The"
+tt0086312,1983,1984,Best Motion Picture - Drama,,FALSE,Silkwood
+tt0086423,1983,1984,Best Motion Picture - Drama,,FALSE,Tender Mercies
+tt0086425,1983,1984,Best Motion Picture - Drama,,TRUE,Terms of Endearment
+tt0086879,1984,1985,Best Motion Picture - Drama,,TRUE,Amadeus
+tt0056264,1962,1963,Best Motion Picture - Drama,,FALSE,Mutiny on the Bounty
+tt0087089,1984,1985,Best Motion Picture - Drama,,FALSE,"Cotton Club, The"
+tt0087553,1984,1985,Best Motion Picture - Drama,,FALSE,"Killing Fields, The"
+tt0087921,1984,1985,Best Motion Picture - Drama,,FALSE,Places in the Heart
+tt0088146,1984,1985,Best Motion Picture - Drama,,FALSE,"Soldier's Story, A"
+tt0088939,1985,1986,Best Motion Picture - Drama,,FALSE,"Color Purple, The"
+tt0089424,1985,1986,Best Motion Picture - Drama,,FALSE,Kiss of the Spider Woman
+tt0089755,1985,1986,Best Motion Picture - Drama,,TRUE,Out of Africa
+tt0090329,1985,1986,Best Motion Picture - Drama,,FALSE,Witness
+tt0090830,1986,1987,Best Motion Picture - Drama,,FALSE,Children of a Lesser God
+tt0091763,1986,1987,Best Motion Picture - Drama,,TRUE,Platoon
+tt0091867,1986,1987,Best Motion Picture - Drama,,FALSE,"Room with a View, A"
+tt0092005,1986,1987,Best Motion Picture - Drama,,FALSE,Stand By Me
+tt0092804,1987,1988,Best Motion Picture - Drama,,FALSE,Cry Freedom
+tt0092965,1987,1988,Best Motion Picture - Drama,,FALSE,Empire of the Sun
+tt0093010,1987,1988,Best Motion Picture - Drama,,FALSE,Fatal Attraction
+tt0093378,1987,1988,Best Motion Picture - Drama,,FALSE,La Bamba
+tt0093389,1987,1988,Best Motion Picture - Drama,,TRUE,"Last Emperor, The"
+tt0093660,1987,1988,Best Motion Picture - Drama,,FALSE,Nuts
+tt0094606,1988,1989,Best Motion Picture - Drama,,FALSE,"Accidental Tourist, The"
+tt0094924,1988,1989,Best Motion Picture - Drama,,FALSE,"Cry in the Dark, A"
+tt0095243,1988,1989,Best Motion Picture - Drama,,FALSE,Gorillas in the Mist: The Adventure of Dian Fossey
+tt0095647,1988,1989,Best Motion Picture - Drama,,FALSE,Mississippi Burning
+tt0095953,1988,1989,Best Motion Picture - Drama,,TRUE,Rain Man
+tt0096018,1988,1989,Best Motion Picture - Drama,,FALSE,Running on Empty
+tt0096332,1988,1989,Best Motion Picture - Drama,,FALSE,"Unbearable Lightness of Being, The"
+tt0096969,1989,1990,Best Motion Picture - Drama,,TRUE,Born on the Fourth of July
+tt0097123,1989,1990,Best Motion Picture - Drama,,FALSE,Crimes and Misdemeanors
+tt0097165,1989,1990,Best Motion Picture - Drama,,FALSE,Dead Poets Society
+tt0097216,1989,1990,Best Motion Picture - Drama,,FALSE,Do The Right Thing
+tt0097441,1989,1990,Best Motion Picture - Drama,,FALSE,Glory
+tt0118760,1997,1998,Best Motion Picture - Drama,,FALSE,"Boxer, The"
+tt0099073,1990,1991,Best Motion Picture - Drama,,FALSE,Avalon
+tt0099348,1990,1991,Best Motion Picture - Drama,,TRUE,Dances with Wolves
+tt0099674,1990,1991,Best Motion Picture - Drama,,FALSE,"Godfather Part III, The"
+tt0099685,1990,1991,Best Motion Picture - Drama,,FALSE,GoodFellas
+tt0100486,1990,1991,Best Motion Picture - Drama,,FALSE,Reversal of Fortune
+tt0101516,1991,1992,Best Motion Picture - Drama,,TRUE,Bugsy
+tt0102138,1991,1992,Best Motion Picture - Drama,,FALSE,JFK
+tt0102713,1991,1992,Best Motion Picture - Drama,,FALSE,"Prince of Tides, The"
+tt0102926,1991,1992,Best Motion Picture - Drama,,FALSE,"Silence of the Lambs, The"
+tt0104036,1992,1993,Best Motion Picture - Drama,,FALSE,"Crying Game, The"
+tt0104257,1992,1993,Best Motion Picture - Drama,,FALSE,"Few Good Men, A"
+tt0105323,1992,1993,Best Motion Picture - Drama,,TRUE,Scent of a Woman
+tt0105695,1992,1993,Best Motion Picture - Drama,,FALSE,Unforgiven
+tt0106226,1993,1994,Best Motion Picture - Drama,,FALSE,"Age of Innocence, The"
+tt0106466,1950,1951,Picture,,FALSE,Born Yesterday
+tt0107207,1993,1994,Best Motion Picture - Drama,,FALSE,In the Name of the Father
+tt0107822,1993,1994,Best Motion Picture - Drama,,FALSE,The Piano
+tt0107943,1993,1994,Best Motion Picture - Drama,,FALSE," Remains of the Day, The"
+tt0108052,1993,1994,Best Motion Picture - Drama,,TRUE,Schindler's List
+tt0109830,1994,1995,Best Motion Picture - Drama,,TRUE,Forrest Gump
+tt0110322,1994,1995,Best Motion Picture - Drama,,FALSE,Legends of the Fall
+tt0091530,1986,1987,Best Motion Picture - Drama,,FALSE,"Mission, The"
+tt0110638,1994,1995,Best Motion Picture - Drama,,FALSE,Nell
+tt0076843,1977,1978,Best Motion Picture - Drama,,TRUE,"Turning Point, The"
+tt0110912,1994,1995,Best Motion Picture - Drama,,FALSE,Pulp Fiction
+tt0110932,1994,1995,Best Motion Picture - Drama,,FALSE,Quiz Show
+tt0112384,1995,1996,Best Motion Picture - Drama,,FALSE,Apollo 13
+tt0112573,1995,1996,Best Motion Picture - Drama,,FALSE,Braveheart
+tt0112579,1995,1996,Best Motion Picture - Drama,,FALSE,"Bridges of Madison County, The"
+tt0056187,1962,1963,Best Motion Picture - Drama,,FALSE,Lisa
+tt0113627,1995,1996,Best Motion Picture - Drama,,FALSE,Leaving Las Vegas
+tt0114388,1995,1996,Best Motion Picture - Drama,,TRUE,Sense and Sensibility
+tt0115751,1996,1997,Best Motion Picture - Drama,,FALSE,Breaking the Waves
+tt0116209,1996,1997,Best Motion Picture - Drama,,TRUE,The English Patient
+tt0117318,1996,1997,Best Motion Picture - Drama,,FALSE,"People vs. Larry Flynt, The"
+tt0117631,1996,1997,Best Motion Picture - Drama,,FALSE,Shine
+tt0118607,1997,1998,Best Motion Picture - Drama,,FALSE,Amistad
+tt0308055,2006,2007,Best Motion Picture - Drama,,FALSE,Bobby
+tt0119217,1997,1998,Best Motion Picture - Drama,,FALSE,Good Will Hunting
+tt0119314,1998,1999,Best Motion Picture - Drama,,FALSE,"Horse Whisperer, The"
+tt0119488,1997,1998,Best Motion Picture - Drama,,FALSE,L.A. Confidential
+tt0119978,1956,1957,Best Motion Picture - Drama,,FALSE,"Rainmaker, The"
+tt0117589,1996,1997,Best Motion Picture - Drama,,FALSE,Secrets & Lies
+tt0120338,1997,1998,Best Motion Picture - Drama,,TRUE,Titanic
+tt0120382,1998,1999,Best Motion Picture - Drama,,FALSE,The Truman Show
+tt0120684,1998,1999,Best Motion Picture - Drama,,FALSE,Gods and Monsters
+tt0120737,2001,2002,Best Motion Picture - Drama,,FALSE,The Lord of the Rings: The Fellowship of the Ring
+tt0120815,1998,1999,Best Motion Picture - Drama,,TRUE,Saving Private Ryan
+tt0127536,1998,1999,Best Motion Picture - Drama,,FALSE,Elizabeth
+tt0134119,1999,2000,Best Motion Picture - Drama,,FALSE,The Talented Mr. Ripley
+tt0140352,1999,2000,Best Motion Picture - Drama,,FALSE,The Insider
+tt0159365,2003,2004,Best Motion Picture - Drama,,FALSE,Cold Mountain
+tt0166924,2001,2002,Best Motion Picture - Drama,,FALSE,Mulholland Dr.
+tt0167260,2003,2004,Best Motion Picture - Drama,,TRUE,The Lord of the Rings: The Return of the King
+tt0167261,2002,2003,Best Motion Picture - Drama,,FALSE,"Lord of the Rings: The Two Towers, The"
+tt0169547,1999,2000,Best Motion Picture - Drama,,TRUE,American Beauty
+tt0172396,1999,2000,Best Motion Picture - Drama,,FALSE,The End of the Affair
+tt0172495,2000,2001,Best Motion Picture - Drama,,TRUE,Gladiator
+tt0174856,1999,2000,Best Motion Picture - Drama,,FALSE,"Hurricane, The"
+tt0181865,2000,2001,Best Motion Picture - Drama,,FALSE,Traffic
+tt0185014,2000,2001,Best Motion Picture - Drama,,FALSE,Wonder Boys
+tt0195685,2000,2001,Best Motion Picture - Drama,,FALSE,Erin Brockovich
+tt0217505,2002,2003,Best Motion Picture - Drama,,FALSE,Gangs of New York
+tt0243133,2001,2002,Best Motion Picture - Drama,,FALSE,"Man Who Wasn't There, The"
+tt0247425,2001,2002,Best Motion Picture - Drama,,FALSE,In the Bedroom
+tt0249462,2000,2001,Best Motion Picture - Drama,,FALSE,Billy Elliot
+tt0253474,2002,2003,Best Motion Picture - Drama,,FALSE,"Pianist, The"
+tt0257360,2002,2003,Best Motion Picture - Drama,,FALSE,About Schmidt
+tt0268978,2001,2002,Best Motion Picture - Drama,,TRUE,A Beautiful Mind
+tt0274558,2002,2003,Best Motion Picture - Drama,,TRUE,The Hours
+tt0091538,1986,1987,Best Motion Picture - Drama,,FALSE,Mona Lisa
+tt0308644,2004,2005,Best Motion Picture - Drama,,FALSE,Finding Neverland
+tt0311113,2003,2004,Best Motion Picture - Drama,,FALSE,Master and Commander: The Far Side of the World
+tt0327056,2003,2004,Best Motion Picture - Drama,,FALSE,Mystic River
+tt0327437,1956,1957,Best Motion Picture - Drama,,TRUE,Around the World in 80 Days
+tt0329575,2003,2004,Best Motion Picture - Drama,,FALSE,Seabiscuit
+tt0338751,2004,2005,Best Motion Picture - Drama,,TRUE,The Aviator
+tt0361748,2009,2010,Best Motion Picture - Drama,,FALSE,Inglourious Basterds
+tt0362269,2004,2005,Best Motion Picture - Drama,,FALSE,Kinsey
+tt0376541,2004,2005,Best Motion Picture - Drama,,FALSE,Closer
+tt0377062,1965,1966,Best Motion Picture - Drama,,FALSE,"Flight of the Phoenix, The"
+tt0387131,2005,2006,Best Motion Picture - Drama,,FALSE,"Constant Gardener, The"
+tt0388795,2005,2006,Best Motion Picture - Drama,,TRUE,Brokeback Mountain
+tt0395169,2004,2005,Best Motion Picture - Drama,,FALSE,Hotel Rwanda
+tt0399146,2005,2006,Best Motion Picture - Drama,,FALSE,A History of Violence
+tt0404203,2006,2007,Best Motion Picture - Drama,,FALSE,Little Children
+tt0405159,2004,2005,Best Motion Picture - Drama,,FALSE,Million Dollar Baby
+tt0405676,1949,1950,Picture,,TRUE,All The King's Men
+tt0407887,2006,2007,Best Motion Picture - Drama,,FALSE,"Departed, The"
+tt0416320,2005,2006,Best Motion Picture - Drama,,FALSE,Match Point
+tt0421715,2008,2009,Best Motion Picture - Drama,,FALSE,The Curious Case of Benjamin Button
+tt0427309,2007,2008,Best Motion Picture - Drama,,FALSE,"Great Debaters, The"
+tt0433383,2005,2006,Best Motion Picture - Drama,,FALSE,"Good Night, and Good Luck"
+tt0443272,2012,2013,Best Motion Picture - Drama,,FALSE,Lincoln
+tt0448134,2000,2001,Best Motion Picture - Drama,,FALSE,Sunshine
+tt0449467,2006,2007,Best Motion Picture - Drama,,TRUE,Babel
+tt0454876,2012,2013,Best Motion Picture - Drama,,FALSE,Life of Pi
+tt0465538,2007,2008,Best Motion Picture - Drama,,FALSE,Michael Clayton
+tt0469494,2007,2008,Best Motion Picture - Drama,,FALSE,There Will Be Blood
+tt0089941,1985,1986,Best Motion Picture - Drama,,FALSE,Runaway Train
+tt0477348,2007,2008,Best Motion Picture - Drama,,FALSE,No Country for Old Men
+tt0499549,2009,2010,Best Motion Picture - Drama,,TRUE,Avatar
+tt0765429,2007,2008,Best Motion Picture - Drama,,FALSE,American Gangster
+tt0765443,2007,2008,Best Motion Picture - Drama,,FALSE,Eastern Promises
+tt0783233,2007,2008,Best Motion Picture - Drama,,TRUE,Atonement
+tt0079522,1979,1980,Best Motion Picture - Drama,,FALSE,Manhattan
+tt0844479,1965,1966,Best Motion Picture - Drama,,FALSE,"Collector, The"
+tt0870111,2008,2009,Best Motion Picture - Drama,,FALSE,Frost/Nixon
+tt0887912,2009,2010,Best Motion Picture - Drama,,FALSE,"Hurt Locker, The"
+tt0947798,2010,2011,Best Motion Picture - Drama,,FALSE,Black Swan
+tt0959337,2008,2009,Best Motion Picture - Drama,,FALSE,Revolutionary Road
+tt0964517,2010,2011,Best Motion Picture - Drama,,FALSE,"Fighter, The"
+tt0970179,2011,2012,Best Motion Picture - Drama,,FALSE,Hugo
+tt0976051,2008,2009,Best Motion Picture - Drama,,FALSE,"Reader, The"
+tt0929632,2009,2010,Best Motion Picture - Drama,,FALSE,Precious: Based On The Novel Push By Sapphire
+tt1010048,2008,2009,Best Motion Picture - Drama,,TRUE,Slumdog Millionaire
+tt1020072,2014,2015,Best Motion Picture - Drama,,FALSE,Selma
+tt1024648,2012,2013,Best Motion Picture - Drama,,TRUE,Argo
+tt1065073,2014,2015,Best Motion Picture - Drama,,TRUE,Boyhood
+tt1100089,2014,2015,Best Motion Picture - Drama,,FALSE,Foxcatcher
+tt1124035,2011,2012,Best Motion Picture - Drama,,FALSE,"Ides of March, The"
+tt1193138,2009,2010,Best Motion Picture - Drama,,FALSE,Up In The Air
+tt1210166,2011,2012,Best Motion Picture - Drama,,FALSE,Moneyball
+tt1285016,2010,2011,Best Motion Picture - Drama,,TRUE,The Social Network
+tt1302006,2019,2020,Best Motion Picture - Drama,,FALSE,"Irishman, The"
+tt1375666,2010,2011,Best Motion Picture - Drama,,FALSE,Inception
+tt1392190,2015,2016,Best Motion Picture - Drama,,FALSE,Mad Max: Fury Road
+tt1454029,2011,2012,Best Motion Picture - Drama,,FALSE,The Help
+tt1454468,2013,2014,Best Motion Picture - Drama,,FALSE,Gravity
+tt1504320,2010,2011,Best Motion Picture - Drama,,FALSE,The King's Speech
+tt1517451,2018,2019,Best Motion Picture - Drama,,FALSE,"Star Is Born, A (2018)"
+tt1535109,2013,2014,Best Motion Picture - Drama,,FALSE,Captain Phillips
+tt1568911,2011,2012,Best Motion Picture - Drama,,FALSE,War Horse
+tt1663202,2015,2016,Best Motion Picture - Drama,,TRUE,The Revenant
+tt1727824,2018,2019,Best Motion Picture - Drama,,TRUE,Bohemian Rhapsody
+tt1790885,2012,2013,Best Motion Picture - Drama,,FALSE,"Zero Dark Thirty 	"
+tt1825683,2018,2019,Best Motion Picture - Drama,,FALSE,Black Panther
+tt1853728,2012,2013,Best Motion Picture - Drama,,FALSE,Django Unchained
+tt1895587,2015,2016,Best Motion Picture - Drama,,FALSE,Spotlight
+tt1979320,2013,2014,Best Motion Picture - Drama,,FALSE,Rush
+tt2024544,2013,2014,Best Motion Picture - Drama,,TRUE,12 Years a Slave
+tt2084970,2014,2015,Best Motion Picture - Drama,,FALSE,The Imitation Game
+tt2119532,2016,2017,Best Motion Picture - Drama,,FALSE,Hacksaw Ridge
+tt2328900,1971,1972,Best Motion Picture - Drama,,FALSE,"Mary, Queen of Scots"
+tt2402927,2015,2016,Best Motion Picture - Drama,,FALSE,Carol
+tt2431286,2013,2014,Best Motion Picture - Drama,,FALSE,Philomena
+tt2577192,1992,1993,Best Motion Picture - Drama,,FALSE,Howards End
+tt2582782,2016,2017,Best Motion Picture - Drama,,FALSE,Hell or High Water
+tt2606314,1963,1964,Best Motion Picture - Drama,,FALSE,"Caretakers, The"
+tt2935476,1967,1968,Best Motion Picture - Drama,,FALSE,Far From The Madding Crowd
+tt2980516,2014,2015,Best Motion Picture - Drama,,FALSE,The Theory of Everything
+tt3170832,2015,2016,Best Motion Picture - Drama,,FALSE,Room
+tt3741834,2016,2017,Best Motion Picture - Drama,,FALSE,Lion
+tt4034228,2016,2017,Best Motion Picture - Drama,,FALSE,Manchester by the Sea
+tt4975722,2016,2017,Best Motion Picture - Drama,,TRUE,Moonlight
+tt5013056,2017,2018,Best Motion Picture - Drama,,FALSE,Dunkirk
+tt5027774,2017,2018,Best Motion Picture - Drama,,TRUE,"Three Billboards Outside Ebbing, Missouri"
+tt5580390,2017,2018,Best Motion Picture - Drama,,FALSE,The Shape of Water
+tt5726616,2017,2018,Best Motion Picture - Drama,,FALSE,Call Me By Your Name
+tt6294822,2017,2018,Best Motion Picture - Drama,,FALSE,The Post
+tt0103074,1991,1992,Best Motion Picture - Drama,,FALSE,Thelma & Louise
+tt7125860,2018,2019,Best Motion Picture - Drama,,FALSE,If Beale Street Could Talk
+tt7286456,2019,2020,Best Motion Picture - Drama,,FALSE,Joker
+tt7349662,2018,2019,Best Motion Picture - Drama,,FALSE,BlacKkKlansman
+tt7653254,2019,2020,Best Motion Picture - Drama,,FALSE,Marriage Story
+tt1033575,2011,2012,Best Motion Picture - Drama,,TRUE,"Descendants, The"
+tt8404614,2019,2020,Best Motion Picture - Drama,,FALSE,"Two Popes, The"
+tt8579674,2019,2020,Best Motion Picture - Drama,,TRUE,1917
+tt0436697,2006,2007,Best Motion Picture - Drama,,FALSE,"Queen, The"
