@@ -156,13 +156,7 @@ def main():
    actors = result[1]
    #print final dataframes
    print(movies)
-   for col in movies.columns:
-       print(col)
    print(actors)
-
-
-
-
 
 if __name__ == '__main__':
     main()
