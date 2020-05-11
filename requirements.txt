@@ -1,0 +1,1 @@
+pip install rotten_tomatoes_client

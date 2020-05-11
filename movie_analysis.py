@@ -1,12 +1,16 @@
+import logging
+
 import pandas as pd
+from requests import HTTPError
+
 import config
 import requests
+from rotten_tomatoes_client import RottenTomatoesClient
 
 
-#TODO- actor race, add ratings from combination of different sources, DIRECTOR GENDERS???
+#TODO-
 
 
-##globals
 
 class MovieAnalyzer(object):
 
@@ -17,6 +21,7 @@ class MovieAnalyzer(object):
         self.all_genres = []
         self.all_release_dates = []
         self.all_runtimes = []
+        self.all_reviews = []
         self.all_keywords = []  # list of list of keywords for each film
         self.all_actors = []  # list of names
         # FULL CAST/GENDERS FOR EACH: 2 - guy, 1 - girl, ignore 0s (unfortunately makes for small margin of error)
@@ -47,7 +52,15 @@ class MovieAnalyzer(object):
         self.all_titles.append(title)
         self.all_release_dates.append(rel_date)
         self.all_runtimes.append(runtime)
+        return title, rel_date
 
+    def split_year(self, release_date):
+        if release_date is None:
+            return -1
+        delims = "-"
+        year = release_date.split(delims)[0]
+        year = int(year)
+        return year
 
     def get_cast(self, movie_id):
         call = 'https://api.themoviedb.org/3/movie/' + str(movie_id) + '/credits?api_key=' + config.MY_KEY
@@ -75,34 +88,56 @@ class MovieAnalyzer(object):
                 movie_keywords.append(word) # add all keywords for this film
         self.all_keywords.append(movie_keywords)
 
-    # def get_award(self, award_string, year):
-    #     if isinstance(award_string, str):
-    #         return str(year + 1) + ' Best Picture Winner'
-    #     else:
-    #         string = str(year + 1) + ' Best Picture Nominee'
-    #         return string
 
-    # returns 1 if film was winner of the year and  if it was nominee
+    # returns 1 if film was winner of the year and 0 if it was nominee
     def is_oscar_award(self, award_string):
         if isinstance(award_string, str):
             return 1
-
         return 0
+
     def is_gg_award(self, win):
         if win == True or win == 'True':
             return 1
         else:
             return 0
 
+    def is_Int(self, value): ##for review
+        try:
+            int(value)
+            return value
+        except:
+            return -1
+
+
+    def get_review(self, movie_title: str, year) -> None:
+        tomato_meter = -1
+        try:
+            result = RottenTomatoesClient.search(term=movie_title)
+
+            for item in result.get('movies'):
+                if item.get('name') == movie_title:  #some movies do not have release date
+                    if item.get('year') == year:
+                        tomato_meter = self.is_Int(item.get('meterScore'))
+        except HTTPError as ex:
+            logging.exception(ex)
+        self.all_reviews.append(tomato_meter)
+
     def make_dataframes(self):
+        logging.info("Starting ...")
         oscar_movies = MovieAnalyzer().get_movie_ids("data/BestPictureAcademyAward.csv")
         gg_movies = MovieAnalyzer().get_movie_ids("data/GoldenGlobesData.csv")
         movies = pd.merge(oscar_movies,gg_movies,how='outer',left_on='Const', right_on='Const')
+        logging.info("Getting cast, details, reviews etc ...")
+        count = 0
         for Const in movies.itertuples():  # for each movie title
+            count += 1
             movie_id = (Const[1])
             self.get_cast(movie_id)
-            self.get_details(movie_id)
+            result = self.get_details(movie_id)
             self.get_keywords(movie_id)
+            year = self.split_year(result[1])
+            logging.info("Count {0} Movie:{1}".format(count, result[0]))
+            self.get_review(result[0], year)
             #print(self.all_titles)
         movies['Title'] = self.all_titles
         movies['Cast'] = self.all_casts
@@ -111,6 +146,10 @@ class MovieAnalyzer(object):
         movies['Genres'] = self.all_genres
         movies['Release Date'] = self.all_release_dates
         movies['Runtime'] = self.all_runtimes
+        movies['Tomatometer'] = self.all_reviews
+        #change all ratings back to type int
+        movies['Tomatometer'] = movies['Tomatometer'].astype('int32').values
+        #movies['Tomatometer'] = self.all_reviews
         actors = pd.DataFrame(self.all_actors, columns=['Name'])
         actors['Gender'] = self.all_actor_genders
 
@@ -151,12 +190,24 @@ class MovieAnalyzer(object):
 
     
 def main():
-   result = MovieAnalyzer().make_dataframes()
-   movies = result[0]
-   actors = result[1]
-   #print final dataframes
-   print(movies)
-   print(actors)
+    #logging because runtime is awful for rotten tomatoes client!
+    # notes titles that fail (HTTP gateway error)--> batch and rerun
+    # bash: tail -f ratings.log to track progress    ~25min.
+    logging.basicConfig(filename="ratings.log", level=logging.INFO)
+
+
+    result = MovieAnalyzer().make_dataframes()
+    movies = result[0]
+    actors = result[1]
+
+    #write to csv
+    movies.to_csv("movies.csv")
+    actors.to_csv("actors.csv", index=False)
+
+    #print final dataframes
+    print(movies['Title'])
+    print(movies['Tomatometer'])
+    print(actors)
 
 if __name__ == '__main__':
     main()
